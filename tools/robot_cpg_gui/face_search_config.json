@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "standby_seconds": 20.0,
+  "lost_grace_seconds": 1.0,
+  "camera_timeout_seconds": 1.0,
+  "face_confirm_frames": 3,
+  "scan_speed_deg_s": 12.0,
+  "scan_endpoint_timeout_seconds": 8.0,
+  "scan_endpoint_tolerance_deg": 2.5,
+  "track_deadband_x": 0.07,
+  "track_gain_deg_s": 38.0,
+  "track_max_speed_deg_s": 17.0,
+  "track_invert_x": false,
+  "pose_max_speed_deg_s": 20.0,
+  "standby_offsets_deg": [
+    20.0,
+    -45.0,
+    30.0
+  ],
+  "scan_min_deg": 60.0,
+  "scan_max_deg": 120.0,
+  "scan_use_full_safe_range": true,
+  "scan_target_span_deg": 180.0,
+  "track_deadband_y": 0.07,
+  "track_gain_y_deg_s": 24.0,
+  "track_max_y_speed_deg_s": 12.0,
+  "track_invert_y": false,
+  "track_personality_head_fraction": 0.08,
+  "track_personality_head_max_deg": 1.2,
+  "track_observation_max_age_s": 0.3,
+  "track_vertical_mix": [
+    0.3,
+    0.3,
+    0.4
+  ],
+  "track_vertical_invert": [
+    false,
+    true,
+    false
+  ],
+  "playback_min_seconds": 0.5,
+  "playback_max_seconds": 30.0
+}

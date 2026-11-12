@@ -1,0 +1,3 @@
+# OPTIONAL ONLY: if you deliberately switch back to RP1 PIO GPIO12 (pin 32)
+Adafruit-Blinka-Raspberry-Pi5-Neopixel
+adafruit-circuitpython-pixelbuf

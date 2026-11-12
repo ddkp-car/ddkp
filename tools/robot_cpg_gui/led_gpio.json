@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "mode": "ws2812_spi",
+  "mono_bcm": null,
+  "red_bcm": null,
+  "green_bcm": null,
+  "blue_bcm": null,
+  "active_high": true,
+  "data_bcm": 10,
+  "pixel_count": 20,
+  "pixel_order": "GRB",
+  "max_brightness": 0.25
+}

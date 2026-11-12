@@ -1,0 +1,45 @@
+{
+  "port": "AUTO",
+  "baud": 1000000,
+  "camera_index": 0,
+  "loop_hz": 20.0,
+  "speed": 150,
+  "max_offset_raw": 171,
+  "cpg_center_deg": 90.0,
+  "cpg_hardware_scale": 1.0,
+  "nominal_degrees_per_count": 0.17578125,
+  "servos": [
+    {
+      "id": 0,
+      "name": "ฐาน",
+      "center": 410,
+      "direction": -1,
+      "safe_min": 0,
+      "safe_max": 870
+    },
+    {
+      "id": 1,
+      "name": "ไหล่",
+      "center": 566,
+      "direction": -1,
+      "safe_min": 120,
+      "safe_max": 940
+    },
+    {
+      "id": 2,
+      "name": "ศอก",
+      "center": 593,
+      "direction": -1,
+      "safe_min": 165,
+      "safe_max": 1023
+    },
+    {
+      "id": 3,
+      "name": "หัว",
+      "center": 413,
+      "direction": 1,
+      "safe_min": 70,
+      "safe_max": 950
+    }
+  ]
+}

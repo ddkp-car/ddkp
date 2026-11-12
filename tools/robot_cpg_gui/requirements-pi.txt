@@ -1,0 +1,15 @@
+ftservo-python-sdk
+pyserial>=3.5
+mediapipe
+opencv-contrib-python
+numpy
+Pillow
+# Optional: for GPIO / LED on Raspberry Pi (install via apt if preferred)
+gpiozero>=2.0
+
+# Optional: addressable 3-wire WS2812/NeoPixel through Pi 5 hardware SPI
+pi5neo>=1.0.0
+# PIO mode (GPIO12) is optional and not used with GPIO10.
+
+# GPIO10 hardware SPI0 / pin 19: Adafruit Blinka + NeoPixel SPI above.
+# GPIO12 RP1 PIO (not selected) requirements are in requirements-led-pio-optional.txt

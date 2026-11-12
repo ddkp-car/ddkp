@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "hormone_peak_threshold": 0.9,
+  "happy_peak_hold_s": 3.0,
+  "other_peak_hold_s": 5.0,
+  "stage_ramp_s": 1.0,
+  "camera_emotion_max_age_s": 0.3,
+  "rgb_rainbow_cycle_s": 5.0,
+  "happy_dance_hz": 0.36,
+  "max_j1_gaze_wiggle_deg": 1.5,
+  "max_j4_gaze_wiggle_deg": 1.5,
+  "stage2_duration_s": 5.0
+}

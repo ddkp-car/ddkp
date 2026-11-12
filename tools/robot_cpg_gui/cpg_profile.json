@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "global": {
+    "so2_alpha": 1.1,
+    "warmup_steps": 200,
+    "oscillation_blend_s": 1.0,
+    "max_slew_deg_s": 20.0
+  },
+  "input_gate": {
+    "min_strength": 0.35,
+    "stable_s": 0.3,
+    "timeout_s": 0.5,
+    "min_samples": 3
+  },
+  "joint_limits": [
+    {
+      "min": 60.0,
+      "max": 120.0
+    },
+    {
+      "min": 60.0,
+      "max": 120.0
+    },
+    {
+      "min": 60.0,
+      "max": 120.0
+    },
+    {
+      "min": 60.0,
+      "max": 120.0
+    }
+  ],
+  "hormones": {
+    "Happy": {
+      "tau_up": 0.5,
+      "tau_down": 1.5
+    },
+    "Sad": {
+      "tau_up": 2.0,
+      "tau_down": 3.0
+    },
+    "Confused": {
+      "tau_up": 0.4,
+      "tau_down": 1.0
+    }
+  },
+  "modes": {
+    "Neutral": {
+      "phi": 0.09,
+      "gains": [
+        21.0,
+        20.0,
+        18.0,
+        18.0
+      ],
+      "poses": [
+        {
+          "time": 0.0,
+          "angles": [
+            85.0,
+            90.0,
+            78.0,
+            92.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "angles": [
+            90.0,
+            95.0,
+            82.0,
+            96.0
+          ]
+        },
+        {
+          "time": 5.0,
+          "angles": [
+            98.0,
+            102.0,
+            88.0,
+            103.0
+          ]
+        },
+        {
+          "time": 10.0,
+          "angles": [
+            88.0,
+            92.0,
+            81.0,
+            96.0
+          ]
+        }
+      ],
+      "light_color": "#ffffff",
+      "brightness": [
+        {
+          "time": 0.0,
+          "value": 0.6
+        },
+        {
+          "time": 1.0,
+          "value": 0.6
+        },
+        {
+          "time": 5.0,
+          "value": 0.6
+        },
+        {
+          "time": 10.0,
+          "value": 0.6
+        }
+      ],
+      "head_fade": null
+    },
+    "Happy": {
+      "phi": 0.3,
+      "gains": [
+        24.0,
+        23.0,
+        19.0,
+        19.0
+      ],
+      "poses": [
+        {
+          "time": 0.0,
+          "angles": [
+            85.0,
+            90.0,
+            76.0,
+            90.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "angles": [
+            91.0,
+            97.0,
+            80.0,
+            101.0
+          ]
+        },
+        {
+          "time": 5.0,
+          "angles": [
+            99.0,
+            103.0,
+            87.0,
+            120.0
+          ]
+        }
+      ],
+      "light_color": "#ffd43b",
+      "brightness": [
+        {
+          "time": 0.0,
+          "value": 0.6
+        },
+        {
+          "time": 1.0,
+          "value": 0.8
+        },
+        {
+          "time": 5.0,
+          "value": 1.0
+        },
+        {
+          "time": 10.0,
+          "value": 1.0
+        }
+      ],
+      "head_fade": null
+    },
+    "Sad": {
+      "phi": 0.095,
+      "gains": [
+        13.0,
+        12.0,
+        10.0,
+        12.0
+      ],
+      "poses": [
+        {
+          "time": 0.0,
+          "angles": [
+            85.0,
+            91.0,
+            78.0,
+            105.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "angles": [
+            84.0,
+            87.0,
+            76.0,
+            100.0
+          ]
+        },
+        {
+          "time": 5.0,
+          "angles": [
+            78.0,
+            81.0,
+            74.0,
+            85.0
+          ]
+        },
+        {
+          "time": 10.0,
+          "angles": [
+            78.0,
+            80.0,
+            74.0,
+            60.0
+          ]
+        }
+      ],
+      "light_color": "#377dff",
+      "brightness": [
+        {
+          "time": 0.0,
+          "value": 0.6
+        },
+        {
+          "time": 1.0,
+          "value": 0.45
+        },
+        {
+          "time": 5.0,
+          "value": 0.25
+        },
+        {
+          "time": 10.0,
+          "value": 0.1
+        }
+      ],
+      "head_fade": {
+        "start": 5.0,
+        "end": 10.0
+      }
+    },
+    "Confused": {
+      "phi": 0.11,
+      "gains": [
+        28.0,
+        21.0,
+        19.0,
+        18.0
+      ],
+      "poses": [
+        {
+          "time": 0.0,
+          "angles": [
+            85.0,
+            91.0,
+            76.0,
+            92.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "angles": [
+            94.0,
+            86.0,
+            82.0,
+            99.0
+          ]
+        },
+        {
+          "time": 5.0,
+          "angles": [
+            99.0,
+            102.0,
+            87.0,
+            84.0
+          ]
+        },
+        {
+          "time": 10.0,
+          "angles": [
+            84.0,
+            93.0,
+            80.0,
+            99.0
+          ]
+        }
+      ],
+      "light_color": "#b05cff",
+      "brightness": [
+        {
+          "time": 0.0,
+          "value": 0.6
+        },
+        {
+          "time": 1.0,
+          "value": 0.75
+        },
+        {
+          "time": 5.0,
+          "value": 0.45
+        },
+        {
+          "time": 10.0,
+          "value": 0.65
+        }
+      ],
+      "head_fade": null
+    }
+  }
+}
