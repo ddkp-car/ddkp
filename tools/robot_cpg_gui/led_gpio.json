@@ -10,5 +10,5 @@
   "data_bcm": 10,
   "pixel_count": 20,
   "pixel_order": "GRB",
-  "max_brightness": 0.25
+  "max_brightness": 0.5
 }
